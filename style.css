@@ -1,0 +1,26 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (width <500px) {
+    nav{
+       display: none;
+       
+    
+    }
+    
+}
+@media screen and (width >=500px){
+    nav{
+       display: inline-block;
+       
+    }
+    
+}
+nav{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    background-color: brown;
+}
